@@ -14,13 +14,30 @@
   </head>
   <body>
       <!-- NAV -->
+      <!-- Just an image -->
+      <nav class="navbar justify-content-center fixed-top" style="background-color: transparent;">
+        <a class="navbar-brand" href="#">
+          <img src="./img/logo.jpeg" width="30" height="30" style="border-radius: 50%;" alt="">
+        </a>
+      </nav>
       <div class="centered">
-        <img src="./img/logo.jpeg" class="logo-fixed img-fluid img-responsive" alt="">
         <h3>DASH</h3>
         <p>Direct. Automated. Shelf. Helper.</p>
-        <div class="row justify-content-center">
+        <div class="d-flex justify-content-center">
             <a href="#" style="margin-right: 7px;"><p>Learn more ></p></a>
             <a href="#"><p>Buy ></p></a>
+        </div>
+        <div id="cube">
+          <div class="scene mx-auto">
+            <div class="cube">
+              <div class="cube__face cube__face--front">front</div>
+              <div class="cube__face cube__face--back">back</div>
+              <div class="cube__face cube__face--right">right</div>
+              <div class="cube__face cube__face--left">left</div>
+              <div class="cube__face cube__face--top">top</div>
+              <div class="cube__face cube__face--bottom">bottom</div>
+            </div>
+          </div>
         </div>
       </div>
       <div id="tabs" class="">
@@ -55,9 +72,8 @@
           </div>
       </div>
       <div id="video" class="row">
-        <video controls>
-          <source src="./video/vid.mp4" type="video/mp4">
-        </video>
+        <iframe id="vid" src="https://www.youtube.com/embed/tgbNymZ7vqY?autoplay=1">
+        </iframe>>
       </div>
       <footer>
         <div id="contact" class="row mx-auto justify-content-center">
@@ -83,6 +99,10 @@
         <div class="row justify-content-center text-white" style="letter-spacing: 2px;">All rights reserved by <span href="#">&nbspdot.com</span></div>
       </footer>
     <!-- Optional JavaScript -->
+    <script>
+      var a = document.getElementById('vid');
+      a.play()
+    </script>
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>

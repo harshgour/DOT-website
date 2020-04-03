@@ -1,0 +1,11 @@
+body{
+    background-color: black;
+    z-index: 1;
+    font-family: 'Dosis', sans-serif;
+}
+
+.centered {
+    color: white;
+    margin-top: 100px;
+    height: 70vh;
+}
