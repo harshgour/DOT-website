@@ -47,14 +47,13 @@ img{
     flex-wrap: nowrap;
 }
 .logo-fixed{
-    position: fixed;
-    z-index: 2;
-    width: 60px;
-    height: 60px;
     border-radius: 50%;
     top: 20px;
     left: 50%;
-    margin-left: -20px;
+    margin-right: 0;
+}
+.navbar-brand{
+    margin-right: 0;
 }
 .scene {
     width: 200px;
@@ -160,7 +159,6 @@ footer ul{
         display:block;
     }
     .logo-fixed{
-        margin-left: -40px;
     }
     iframe{
         width: 95vw;
