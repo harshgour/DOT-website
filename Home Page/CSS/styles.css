@@ -1,0 +1,131 @@
+html{
+}
+a{
+    text-decoration: none;
+}
+body{
+    z-index: 1;
+    font-family: 'Dosis', sans-serif;
+    font-size: 1.8vh;
+    background-color: black;
+    justify-content: center;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+#tabs{
+    margin-top: 120px;
+    padding: 20px;
+    margin-bottom: 40px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 10px;
+}
+#tabs img{
+    border-radius: 5px;
+    height: 28vh;
+}
+#tabs img:hover{
+    opacity: 0.5;
+    transform: scale(1.02);
+}
+.centered {
+    position: relative;
+    text-align: center;
+    color: white;
+    top: 100px;
+    font-weight: bolder;
+    height: 70vh;
+    justify-content: center;
+}
+.centered p{
+    letter-spacing: 2px;
+}
+.navbar{
+    width: 100%;
+    background-color: black;
+    flex-wrap: nowrap;
+}
+.logo-fixed{
+    border-radius: 50%;
+    top: 20px;
+    left: 50%;
+    margin-right: 0;
+}
+.navbar-brand{
+    margin-right: 0;
+}
+#cube{
+    margin-top: 80px;
+}
+.card{
+    margin-top: 10px;
+    width: 22rem;
+    height: 35vh;
+    background-color: white;
+    border-radius: 10px;
+}
+.card-title{
+    color: black;
+}
+.card-body{
+    display:none;
+    position: absolute;
+    bottom: 2px;
+}
+.card-text{
+    color: black;
+    font-weight: bolder;
+    font-size:medium;
+}
+.card:hover .card-body{
+    display:block;
+}
+.card:hover .card-img{
+    transform: scale(1.1);
+    opacity: 0.6;
+}
+#video{
+    margin-top: 30px;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+video{
+    width: 95vw;
+    height: 70vh;
+    border: 1px solid white;
+}
+footer{
+    height: 20vh;
+    background-color: #1C2833;
+    padding: 30px;
+}
+footer ul{
+    list-style: none;
+    margin-top: 30px;
+}
+@media(max-width:1279px){
+    .card{
+        width: 18rem;
+        height: 30vh;
+    }
+    #tabs img{
+        height: 22vh;
+    }
+    .card-text{
+        font-size: small;
+        font-weight: none;
+        color: white;
+    }
+    .card-body{
+        display:block;
+    }
+    .logo-fixed{
+    }
+    video{
+        width: 95vw;
+        height: 70vh;
+    }
+}
